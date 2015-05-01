@@ -1,0 +1,1 @@
+C:\wamp\www\yumist\app/views/items/show.blade.php
