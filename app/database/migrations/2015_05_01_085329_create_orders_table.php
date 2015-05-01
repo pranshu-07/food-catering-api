@@ -19,6 +19,7 @@ class CreateOrdersTable extends Migration {
 			$table->dateTime('delivery_time');
 			$table->string('address');
 			$table->integer('amount');
+			$table->softDeletes();
 			$table->timestamps();
 		});
 	}
